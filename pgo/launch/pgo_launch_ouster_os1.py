@@ -11,11 +11,8 @@ def generate_launch_description():
         [FindPackageShare("pgo"), "config", "pgo.yaml"]
     )
 
-    #lio_config_path = PathJoinSubstitution(
-    #    [FindPackageShare("fastlio2"), "config", "lio.yaml"]
-    #)
     lio_config_path = PathJoinSubstitution(
-        [FindPackageShare("fastlio2"), "config", "lio_front_mid360.yaml"]
+        [FindPackageShare("fastlio2"), "config", "lio_ouster_os1.yaml"]
     )
 
 
