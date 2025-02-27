@@ -8,7 +8,7 @@ def generate_launch_description():
         [FindPackageShare("pgo"), "rviz", "pgo.rviz"]
     )
     pgo_config_path = PathJoinSubstitution(
-        [FindPackageShare("pgo"), "config", "pgo.yaml"]
+        [FindPackageShare("pgo"), "config", "pgo_default.yaml"]
     )
 
     #lio_config_path = PathJoinSubstitution(
